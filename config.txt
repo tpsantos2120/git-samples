@@ -1,0 +1,19 @@
+[user]
+	email = thiagocroza472@gmail.com
+	name = tpsantos2120
+[core]
+	editor = code --wait
+[alias]
+	s = !git status -s
+	ac = !git add --all && git commit -m
+	rc = !git reset --hard HEAD~1
+	pcb = !git push origin HEAD
+	pab = !git push --all
+	b = !git branch
+	l =	!git log --pretty='format:%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+	cb = !git checkout
+	rmc	= !git reset --hard HEAD~1
+	glin = !gh auth login
+	glout = !gh auth logout
+	gprc = !gh pr create
+	gprm = !gh pr merge 
